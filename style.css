@@ -1,0 +1,415 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  letter-spacing: 3px;
+
+  font-weight: 700;
+  font-size: min(25px, 5vw);
+}
+
+
+.main-container {
+  background-image: url("../img/backg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: covers;
+
+  padding-bottom: 9%;
+  color: white;
+}
+.vector {
+  display: none;
+}
+
+.section-about>p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: min(15px, 5vw);
+  font-weight: 400;
+
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+button {
+  font-size: 1em;
+  
+  padding: 1.5% 4% 1.5% 4%;
+
+  color: #3CDCFF;
+  border: 2px solid #3CDCFF;
+  border-radius: 38px;
+
+  font-weight: 600;
+
+  background: none;
+
+  cursor: pointer;
+}
+
+/* при наведении результат */
+button:hover {
+  font-size: 1em;
+
+  padding: 1.5% 4% 1.5% 4%;
+
+  color: #000000;
+  font-weight: 600;
+
+  background: #3CDCFF;
+  border-radius: 38px;
+  border: 2px solid #3CDCFF;
+
+  cursor: pointer;
+}
+
+A {
+  text-decoration: none;
+  color: white;
+}
+
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: auto;
+
+  width: 90%;
+
+  padding-top: 2%;
+  padding-bottom: 1%;
+
+  text-align: center;
+
+}
+
+.navbar-links {
+  display: flex;
+  gap: 50px;
+}
+
+.first-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.section-about {
+
+  padding-top: 13%;
+  padding-left: 5%;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  padding: 7% 5% 7% 5%;
+}
+
+/* 2 блок */
+.first-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.section-about {
+
+  padding-top: 13%;
+  padding-left: 5%;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 5%;
+
+  padding: 7% 5% 7% 5%;
+}
+
+
+.second-img {
+  background: linear-gradient(359.49deg, #000000 -25.23%, rgba(0, 0, 0, 0) 36.78%), url("../img/2section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+  width: 50%; 
+  
+  color: white;
+  position: relative;
+  border-radius: 16px;
+}
+
+.second-img-1 {
+  padding-top: 3%;
+  padding-left: 5%;
+
+  font-weight: 400;
+  font-size: min(30px, 3vw);
+}
+
+.second-img-2 {
+  padding-top: 40%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+
+  line-height: 25px;
+  font-weight: 400;
+  font-size: min(20px, 2vw);
+}
+
+.second-inform {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%; 
+
+
+}
+
+.second-inform>button {
+  width: 50%;
+  height: 15%;
+}
+
+
+/* 3 блок */
+.third-section {
+  display: flex;
+  width: 100%;
+
+  background-image: url("../img/3section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  padding: 5%;
+}
+
+.third-section-text {
+  display: block;
+  width: 70%;
+  padding-left: 40%;
+  padding-right: 5%;
+}
+
+.third-section-text>h1 {
+  font-weight: 800;
+  font-size: min(20px, 5vw);
+}
+
+.third-section-text>p {
+  padding-top: 5%;
+
+  line-height: 30px;
+}
+
+.third-section-inputs {
+  display: flex;
+  gap: 20px;
+  width: 30%;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
+.third-section-inputs>input {
+  font-weight: 500;
+  font-size: 1em;
+
+  padding: 5% 5% 5% 5%;
+
+  color: #000000;
+  font-weight: 600;
+
+  background: none;
+  border-radius: 38px;
+  border: 2px solid #9CB7CA;
+
+  cursor: pointer;
+}
+
+.inputs-confirm {
+  display: block;
+  color: #030000;
+
+  padding-top: 5%;
+  text-align: center;
+}
+
+.third-section-phone {
+  display: none;
+  color: #030000;
+
+  padding-top: 5%;
+  text-align: center;
+}
+
+.third-section-inputs>button {
+  font-size: 1em;
+
+  padding: 5% 4% 5% 4%;
+
+  color: #3CDCFF;
+  font-weight: 600;
+
+  background: none;
+  border-radius: 38px;
+  border: 2px solid #3CDCFF;
+
+  cursor: pointer;
+}
+
+.third-section-inputs>button:hover {
+  font-size: 1em;
+
+  padding: 5% 4% 5% 4%;
+
+  color: #000000;
+  font-weight: 600;
+
+  background: #3CDCFF;
+  border-radius: 38px;
+  border: 2px solid #3CDCFF;
+
+  cursor: pointer;
+}
+
+/* 4 блок */
+
+.four-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  padding: 7% 5% 7% 5%;
+}
+
+.four-section-text{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+
+  padding-left: 5%;
+  padding-right: 10%;
+}
+.four-section-text>button{
+  font-size: 1em;
+
+  padding: 5% 4% 5% 4%;
+
+  
+
+}
+
+.four-section-img{
+  background: linear-gradient(359.49deg, #000000 -25.23%, rgba(0, 0, 0, 0) 36.78%), url("../img/4section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
+  width: 50%;
+  /* padding-bottom: 20%; */
+  /* padding-left: ; */
+  color: white;
+  position: relative;
+  border-radius: 16px;
+  
+}
+
+.four-img-1{
+  padding-top: 3%;
+  padding-left: 5%;
+
+  font-weight: 400;
+  font-size: min(30px, 3vw); 
+}
+
+.four-img-2{
+padding-top: 40%; 
+padding-bottom: 5%;
+padding-left: 5%;
+
+line-height: 25px;
+font-weight: 400;
+font-size: min(20px, 2vw); 
+
+}
+
+/* 5 блок */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #F1F2F6;
+  padding: 1% 2% 1% 2%;
+  
+}
+
+.footer-leftblock>p>a{
+  color: black; 
+  
+  font-weight: 100;
+  font-size: min(30px, 3vw); 
+
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 70%;
+}
+
+.Icon>p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Icon{
+  width: 65%;
+  display: flex;
+  align-items: center;
+}
+
+.Writings{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 8%;
+  align-items: center;
+
+}
+
+.Writings>p>a{
+  color: #000000;
+}
+
+.Writings>p>a:hover{
+  color: #b5b5b5;
+}
+
+.footer-rightblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+  gap: 30px;
+  font-size: min(30px, 2vw);
+}
